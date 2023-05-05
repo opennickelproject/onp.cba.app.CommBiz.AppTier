@@ -1,11 +1,6 @@
-metadata:
-  organisation-id: cba
-  pattern-categories:
-  - Application
-  pattern-description: CommBiz App Tier
-  pattern-id: cba.app.CommBiz.AppTier
-  pattern-name: cba.app.CommBiz.AppTier
-  pattern-version: 1.0.0
+dependencies:
+  - pattern-id: cba.ec2.alb.efsystems
+    version: 1.0.0
 
 lifecycle:
   create:
@@ -21,6 +16,11 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 
-dependencies:
-  - pattern-id: cba.ec2.alb.efsystems
-    version: 1.0.0
+metadata:
+  organisation-id: cba
+  pattern-categories:
+  - Application
+  pattern-description: CommBiz App Tier
+  pattern-id: cba.app.CommBiz.AppTier
+  pattern-name: cba.app.CommBiz.AppTier
+  pattern-version: 1.0.0
