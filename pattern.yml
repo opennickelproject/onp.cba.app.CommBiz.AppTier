@@ -13,7 +13,7 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: cba
   pattern-categories:
   - Application
   pattern-description: CommBiz App Tier
