@@ -11,5 +11,6 @@ Path to Cloud will be in incremental phases, Replatform and Cloud Native.
 Replatforming- Target state architecture phase 1 and operations are supposed to be the same or similar to those that existed before, only replatformed to the cloud. As a result, IBB will achieve the significant benefits of EOL/EOS physical server migration to the cloud: remediate current EOS risks, savings on hosting and datacenter costs, as well as greater efficiency and scalability.
 
 To deliver the outcome, phase 1 will build following core capabilities in the CommBiz Cloud platform,
+
 - Fully Continuous Integration and Continuous Deployment (CI/CD) enabled (leverage CommSec) strategic technology stack upon which the IBB Hosting Platform is built
 - Develop new skills and processes for CI/CD and software development to take advantage of cloud services and the agility promised by cloud computing.
